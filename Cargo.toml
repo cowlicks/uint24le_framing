@@ -1,0 +1,18 @@
+[package]
+name = "uint24le_framing"
+version = "0.1.0"
+license = "MIT OR Apache-2.0"
+description = "Convert bytes IO into uint24 length prefixed messages"
+edition = "2024"
+repository = "https://github.com/cowlicks/uint24le_framing"
+keywords = ["hypercore"]
+
+[dependencies]
+tracing = "0.1"
+futures-lite = "1"
+futures = "0.3.31"
+
+[dev-dependencies]
+tokio = { version = "1.27.0", features = ["macros", "net", "process", "rt", "rt-multi-thread", "sync", "time", "io-util"] }
+sluice = "0.5.4"
+tokio-util = { version = "0.7.14", features = ["compat"] }
