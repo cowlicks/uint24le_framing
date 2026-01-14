@@ -184,7 +184,7 @@ where
                 }
             } else {
                 trace!("No more messages to flush");
-                return Poll::Ready(Ok(()));
+                return Pin::new(&mut *io).poll_flush(cx);
             }
         }
     }
