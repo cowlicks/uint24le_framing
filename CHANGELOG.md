@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+* In `poll_flush` ensure underlying IO is flushed.
+
 ### Removed
 
 
