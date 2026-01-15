@@ -13,6 +13,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+### Removed
+
+
+
+## [0.2.0] - 2026-01-15
+
+### Added
+
+### Changed
+
 * In `poll_flush` ensure underlying IO is flushed.
 
 ### Removed
@@ -30,5 +40,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 <!-- next-url -->
-[Unreleased]: https://github.com/datrs/uint24le_framing/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/datrs/uint24le_framing/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/datrs/uint24le_framing/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/datrs/uint24le_framing/compare/v0.1.0...v0.1.0
